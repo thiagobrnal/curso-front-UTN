@@ -1,0 +1,18 @@
+section{
+    display: grid;
+    place-items: center;
+    width: 100%;
+}
+
+div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    margin: 0 auto; 
+    display: block; 
+    max-width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
