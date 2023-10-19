@@ -1,0 +1,53 @@
+body {
+    font-family:Helvetica;
+    background-image: url(/img/bg-palm.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.card{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.link{
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 20%;
+    height: 5vh;
+    border-radius: 20px;
+    margin-top: 15px;
+    place-items: center;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.link i {
+    color: limegreen;
+    margin-right: 10px
+}
+
+.link p {
+    font-size: 12px;
+    text-align: center;
+    flex: 1;
+}
+
+.footer{
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 7%;
+    font-size: 23px;
+}
+
+.footer i {
+    margin-left: 35px;
+    margin-right: 35px;
+}
